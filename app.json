@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Aviator Predictor",
+    "slug": "aviator-predictor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.svg",
+    "splash": {
+      "image": "./assets/splash.svg",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aviatorpredictor.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.svg",
+        "backgroundColor": "#121212"
+      },
+      "package": "com.aviatorpredictor.app",
+      "versionCode": 1,
+      "permissions": ["INTERNET"]
+    },
+    "web": {
+      "favicon": "./assets/icon.svg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aviator-predictor"
+      }
+    }
+  }
+}
